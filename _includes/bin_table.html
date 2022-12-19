@@ -32,6 +32,7 @@
 	{% endfor %}
     </ul>
     <ul id="bin-search-filters" class="filter-list">
+
 	<h3>OS:</h3>
 	{% for OS_pair in site.data.OS %}
 	{% assign OS_id = OS_pair[0] %}
@@ -39,6 +40,8 @@
 	<li><input type="checkbox" id="{{ OS.label }}" name="OS_name" onclick='handleChange(this, "{{ OS.label }}");'><label id="{{ OS.label }}_label" for="{{ OS.label }}" data-title="{{ OS.description | replace: '\n', ' ' }}">{{ OS.label }}</label></li>
 	{% endfor %}
     </ul>
+
+	
 
 </div>
 <div style="margin-top: -20px;">
