@@ -5,7 +5,11 @@ description: |
   Command Reference:
 
   	Command Reference here
-
+  server:
+    as
+  
+  client:
+    test
 command: |
   # Server
   chisel server --port 8000 --reverse
