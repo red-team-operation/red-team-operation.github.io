@@ -6,8 +6,6 @@ description: |
 
   	Command Reference here
 
-  	
-
 command: |
   chisel server --port 8000 --reverse
 
