@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WADComs
+title: Commands
 ---
 
 ![logo](/assets/logo.png){:.logo}
