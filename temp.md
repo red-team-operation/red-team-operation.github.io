@@ -3,7 +3,7 @@ layout: page
 title: Commands
 ---
 
-If the value for "Accounts: Limit local account use of blank passwords to console logon only" is not set to "Enabled", this is a finding.
+"Disable" "Accounts: Limit local account use of blank passwords to console logon only" 
 
 The policy referenced configures the following registry value:
 
@@ -13,4 +13,8 @@ Registry Path: \System\CurrentControlSet\Control\Lsa
 Value Name: LimitBlankPasswordUse
 
 Value Type: REG_DWORD
-Value: 1
+Value: 0
+
+```
+reg.exe add "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa" /v LimitBlankPasswordUse /t REG_DWORD /d 1
+```
