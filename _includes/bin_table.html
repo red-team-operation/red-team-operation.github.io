@@ -70,9 +70,7 @@
 			
 			</tr>
 			<tr>
-				<a href="{{ file.url }}" id="{{ file.url }}" style="text-decoration: none; color: DarkGreen;">
-					{{ file.command | escape }}
-				</a>
+				<pre><code id="code_text">{{ page.command | escape }}</code></pre>
 			</tr>
             {% endfor %}
         </tbody>
