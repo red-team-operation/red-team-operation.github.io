@@ -63,7 +63,7 @@
 				<div class="bin-name">
 					<div style="flex: 0 0 97%">
 						<a href="{{ file.url }}" id="{{ file.url }}" style="text-decoration: none; color: DarkGreen;">
-							<pre>{{ file.command | escape }}</pre>
+							{{ file.command | escape }}
 						</a>
 					</div>
 				<div style="flex: 1;"><a href="javascript:void(0)" onClick="copyFunction('{{ file.url }}')"><img src="/assets/copy-button.svg" alt="Copy" title="Copy" id="{{ file.url }}_img"/></a></div></div><p style="margin-top: -12px;">{% include filter_list.html bin=file %}</p></td>
