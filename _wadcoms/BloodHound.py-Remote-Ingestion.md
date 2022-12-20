@@ -11,6 +11,8 @@ description: |
   	Domain: test.local
 
 command: |
+  # Hello
+
   bloodhound.py -d test.local -v --zip -c All -dc test.local -ns 10.10.10.1
 items:
   - No_Creds
