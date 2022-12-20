@@ -10,7 +10,6 @@ command: |
   # Server
   chisel server --port 8000 --reverse
 
-command: |
   # Client
   chisel.exe client 10.10.14.7:9999 9999:localhost:443
 
