@@ -15,6 +15,10 @@ PrivEsc:
   label: Privilege Escalation
   description: Command focuses on privilege escalation.
 
+PostExploitation:
+  label: Post Exploitation
+  description: Command focuses on Post Exploitation
+
 Pivot:
   label: Port redirect & Tunneling
   description: Command focuses on Port redirect & Tunneling
